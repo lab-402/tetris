@@ -1,0 +1,6 @@
+@startuml name
+
+[*] -> Start
+Start --> GameStart : PressSpace
+GameStart --> [*] : Aborted
+@enduml
